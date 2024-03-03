@@ -1,0 +1,48 @@
+.running {
+    background: rgb(245, 73, 50); 
+    overflow: hidden;
+}
+.running__wrapper {
+    padding: clamp(10px, 0.403rem + 0.95vw, 18px) 0;
+    display: inline-flex;
+    gap: 12px;
+    align-items: center;
+    animation: rotation 45s infinite linear;
+}
+.running__text {
+    color: rgb(255, 255, 255);
+    font-family: var(--font-accent);
+    font-size: clamp(16px, 0.834rem + 0.71vw, 22px);
+    font-weight: 400;
+    line-height: 110%;
+    letter-spacing: 0px;
+    text-align: right;
+    text-transform: uppercase;
+    white-space: nowrap;
+      display: flex;
+    
+}
+.running__devider {
+    width: 6px;
+    height: 6px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+.running__wrapper:hover {
+    animation-play-state: paused;
+  }
+
+@keyframes rotation {
+    0% {
+        transform: translateX(-100%);
+    }
+    
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.running__mobile{
+    margin-top: 80px;
+}

@@ -1,0 +1,34 @@
+.lecture {
+    padding: clamp(48px, 2.112rem + 3.79vw, 80px) 0 clamp(25px, 0.481rem + 4.62vw, 64px);
+    
+}
+.lecture__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+
+    @media(max-width: 700px){
+        flex-direction: column;
+    }
+
+    @media(max-width: 700px){
+        display: none;
+    }
+}
+.lecture__title {
+    max-width: 764px;
+    
+}
+
+.lecture__row-mobile {
+    display: none;
+
+    @media(max-width: 700px){
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+}
+
+

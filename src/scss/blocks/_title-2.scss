@@ -1,0 +1,14 @@
+.title-2 {
+    font-family: var(--font-accent);
+    font-size: clamp(28px, 1.528rem + 0.95vw, 36px);
+    font-weight: 400;
+    line-height: 135%;
+    text-align: left;
+    text-transform: uppercase;
+    color: rgb(49, 49, 49);
+}
+
+.title-2 span {
+    color: rgb(245, 73, 50);
+    font-weight: 700;
+}

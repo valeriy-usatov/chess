@@ -1,0 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=Golos+Text:regular,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Merriweather:regular,500,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:500);
+
+/* Base */
+@import "./base/reset";
+@import "./base/vars";
+@import "./base/base";
+@import "./base/utils";
+@import "./base/containers";
+@import "./base/sticky-footer";
+
+/* Blocks */
+@import "./blocks/*.scss";
